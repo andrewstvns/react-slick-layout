@@ -1,0 +1,14 @@
+// import mixin and variables
+@import '../../../assets/styles/helper/function',
+  '../../../assets/styles/helper/mixin',
+  '../../../assets/styles/helper/variables';
+
+.o-card-list {
+  text-align: center;
+  .m-card {
+    display: inline-block;
+    margin-right: 12px;
+    text-align: left;
+    padding: 12px;
+  }
+}

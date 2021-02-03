@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Title",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
+    "tips": false,
+    "tipsDetail": ""
+  },
+  {
+    "id": 2,
+    "title": "Title",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
+    "tips": false,
+    "tipsDetail": ""
+  },
+  {
+    "id": 3,
+    "title": "Title",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
+    "tips": false,
+    "tipsDetail": ""
+  }
+]

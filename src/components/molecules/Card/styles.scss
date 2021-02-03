@@ -7,4 +7,26 @@
   width: 240px;
   height: 150px;
   background-color: white;
+  &.card-tips {
+    position: relative;
+    .content-detail {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(86, 85, 82, 0.68);
+      text-align: left;
+      padding: 14px;
+      width: 100%;
+      .a-text-info {
+        display: inline-block;
+        margin-bottom: 0;
+        width: 140px;
+        vertical-align: middle;
+      }
+      .detail-button {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+  }
 }

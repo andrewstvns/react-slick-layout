@@ -2,7 +2,11 @@ import React from 'react';
 import { H1, H2, TextInfo, Button, Header, CardList } from 'components';
 import './styles.scss';
 
+import testimoniCard from 'assets/data-dummy/testimoni-card.json'
+import helpTipsData from 'assets/data-dummy/help-tips-card.json'
+
 const Home = () => {
+  console.log(testimoniCard);
   return (
     <div className='p-home'>
       <Header>Fellas</Header>
@@ -31,9 +35,7 @@ const Home = () => {
             </div>
             <H2>Testimonial</H2>
             <CardList
-              title='Title'
-              detail='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,'
+              data={testimoniCard}
             />
           </div>
         </div>
@@ -41,9 +43,7 @@ const Home = () => {
           <div className='section-three'>
             <H2>Help and Tips</H2>
             <CardList
-              title='Title'
-              detail='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,'
+              data={helpTipsData}
             />
           </div>
         </div>
