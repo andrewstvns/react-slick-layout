@@ -4,5 +4,50 @@
   '../../../assets/styles/helper/variables';
 
 .p-home {
-
+  background-color: pink;
+  min-height: 100vh;
+  .m-header {
+    text-align: initial;
+  }
+  .main-content {
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    .section-one,
+    .section-two,
+    .section-three {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .section-one {
+      .a-h1 {
+        padding-top: 110px;
+      }
+      .a-text-info {
+        font-size: 18px;
+        font-style: italic;
+      }
+      .a-button {
+        margin-top: 64px;
+      }
+    }
+    .section-two {
+      .detail-info {
+        .a-text-info {
+          text-align: right;
+          font-size: 22px;
+        }
+      }
+      .o-card-list {
+        .m-card {
+          padding: 24px 12px;
+          .a-h2,
+          .a-text-info {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
 }

@@ -6,9 +6,7 @@ import './styles.scss';
 const TextInfo = ({ className, children }) => {
   const classNames = classname('a-text-info', className);
   return (
-    <div className={classNames}>
-      <p>{children}</p>
-    </div>
+    <p className={classNames}>{children}</p>
   )
 }
 

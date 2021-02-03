@@ -1,5 +1,5 @@
-import CardList from './CardList';
+import Card from './Card';
 import Footer from './Footer';
 import Header from './Header';
 
-export { CardList, Footer, Header };
+export { Card, Footer, Header };

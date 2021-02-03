@@ -6,9 +6,7 @@ import './styles.scss';
 const H2 = ({ className, children }) => {
   const classNames = classname('a-h2', className);
   return (
-    <div className={classNames}>
-      <h2>{children}</h2>
-    </div>
+    <h2 className={classNames}>{children}</h2>
   )
 }
 

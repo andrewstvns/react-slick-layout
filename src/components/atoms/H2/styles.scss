@@ -4,5 +4,9 @@
   '../../../assets/styles/helper/variables';
 
 .a-h2 {
-
+  font-size: 28px;
+  line-height: 1.2;
+  @include small {
+    font-size: 20px;
+  }
 }

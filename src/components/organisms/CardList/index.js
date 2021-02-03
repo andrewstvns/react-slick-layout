@@ -3,23 +3,27 @@ import PropTypes from 'prop-types';
 import classname from 'classnames';
 import './styles.scss';
 
-const CardList = ({ className, children }) => {
-  const classNames = classname('m-card-list', className);
+import { Card } from 'components';
+
+const CardList = ({ className, title, detail }) => {
+  const classNames = classname('o-card-list', className);
   return (
     <div className={classNames}>
-      <p>{children}</p>
+      <Card title={title} detail={detail} />
     </div>
   )
 }
 
 CardList.propTypes = {
   className: PropTypes.string,
-  children: PropTypes.node,
+  title: PropTypes.string,
+  detail: PropTypes.string
 };
 
 CardList.defaultProps = {
   className: '',
-  children: {},
+  title: '',
+  detail: ''
 };
 
 export default CardList;

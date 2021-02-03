@@ -6,9 +6,7 @@ import './styles.scss';
 const Button = ({ className, children }) => {
   const classNames = classname('a-button', className);
   return (
-    <div className={classNames}>
-      <button>{children}</button>
-    </div>
+    <button className={classNames}>{children}</button>
   )
 }
 

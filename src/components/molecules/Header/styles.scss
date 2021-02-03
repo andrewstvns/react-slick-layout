@@ -4,5 +4,31 @@
   '../../../assets/styles/helper/variables';
 
 .m-header {
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 12px 0;
+  background-color: white;
+  h3 {
+    margin: 0;
+    color: grey;
+  }
+  .a-text-info {
+    font-weight: 800;
+  }
+  .header-wrapper {
+    display: table;
+    img {
+      display: table-cell;
+      width: 64px;
+      vertical-align: middle;
+    }
+    .header-info {
+      display: table-cell;
+      width: 200px;
+      padding-left: 12px;
+    }
+  }
 }
